@@ -345,6 +345,9 @@ p {
 /* End Hero Section */
 
 /* Services Section */
+#services{
+	padding-top: 9px;
+}
 #services .services {
 	flex-direction: column;
 	text-align: center;
@@ -413,6 +416,9 @@ p {
 /* End Services Section */
 
 /* Projects section */
+#projects {
+	padding-top: 9px;
+}
 #projects .projects {
 	flex-direction: column;
 	max-width: 1200px;
@@ -495,7 +501,7 @@ p {
 	text-align: center;
 	max-width: 1200px;
 	margin: 0 auto;
-	padding: 50px 20px;
+	padding: 50px 0;
 }
 #about .col-left {
 	width: 250px;
@@ -539,6 +545,9 @@ p {
 
 
 /* contact section */ 
+#contact {
+	padding-top: 12px;
+}
 .section7 {
     overflow: hidden !important;
     margin-top: 5%;
