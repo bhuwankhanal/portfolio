@@ -31,7 +31,8 @@ p {
 	line-height: 2.5rem;
 	font-weight: 300;
 	letter-spacing: 0.05rem; 
-	cursor: context-menu;
+	cursor: context-menu; 
+	text-align: Justify;
 }
 .section-title {
 	font-size: 4rem;
@@ -402,13 +403,16 @@ p {
 }
 #services .service-item p {
 	color: white;
-	text-align: left;
+	text-align: Justify;
 }
 #services .service-item{
 	transition: 0.3s ease transform;
 }
 #services .service-item:hover {
 	transform: scale(1.1);
+}
+.footer_line{
+	margin-left: 5px;
 }
 /* End Services Section */
 
@@ -809,6 +813,10 @@ p {
 
   
   @media only screen and (max-width: 1280px) {
+	  
+    .service-top p {
+		margin: 0px 18px;
+	}
 
     .contact-info-icon {
       margin-top: 6.5%;
